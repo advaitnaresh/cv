@@ -1,0 +1,23 @@
+body{
+  background-color: #A2DBFA;
+}
+
+/**img:hover
+{
+  background-color: gold;
+}**/
+h1{
+  color: #06283D
+}
+
+h3{
+  color:#001E6C
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #11468F;
+  border-width: 8px;
+  width: 5%;
+}
