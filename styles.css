@@ -1,12 +1,24 @@
 body {
-  background-color: #62eae1;
+  background-color: #1B222A;
+  width: 100%;
   margin: 0;
+  overflow-x: hidden;
 }
 
 /**img:hover
 {
   background-color: gold;
 }**/
+/* .flex-container {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 10;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+} */
 h1 {
   color: #6FDFDF;
   font-size: 300%;
@@ -45,6 +57,8 @@ hr {
   position: absolute;
   top: 25%;
   left: 43%;
+  width:100%;
+  height:auto;
 }
 
 .texter {
@@ -62,12 +76,13 @@ hr {
 
 .top {
   background-image: url('statistics.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 0;
   padding-top: 48.49%;
 }
+
 
 .l1 {
   font-family: 'Merriweather', serif;
@@ -83,6 +98,14 @@ hr {
   position: relative;
   left: 0  ;
 }
+
+.l3{
+  color: #6FDFDF;
+}
+/* .l3:hover{
+  color: #6FDFDF;
+}  */
+
 
 .mid1{
   color: #364E68;
@@ -105,4 +128,18 @@ hr {
 
 .title{
   color: #364E68;
+}
+.title2{
+  color: #6FDFDF;
+}
+.title3{
+  color: #6FDFDF;
+}
+
+.b1{
+  color: #18978F;
+  margin: 10px;
+}
+.b2{
+  color: #18978F;
 }
